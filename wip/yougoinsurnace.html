@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- ============================================================
+     PROJECT DRAFT TEMPLATE — Lógos
+     Duplicate this file per client draft. Everything you need to
+     change is marked {{ LIKE THIS }} or sits inside a
+     "REPEAT BLOCK" comment.
+     ============================================================ -->
+
+<title>You Go Insurance — Lógos</title>
+<meta name="description" content="{{ ONE-LINE PROJECT SUMMARY }}">
+
+<!-- Social preview (optional — delete if the draft stays private) -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ PROJECT NAME }}">
+<meta property="og:description" content="{{ ONE-LINE PROJECT SUMMARY }}">
+<meta property="og:image" content="{{ SHARE-IMAGE-URL.jpg }}">
+<meta name="twitter:card" content="summary_large_image">
+
+<meta name="robots" content="noindex, nofollow">
+<meta name="format-detection" content="telephone=no">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap">
+
+<style>
+  /* ---------- Tokens ---------- */
+  :root {
+    --ink:         #1a1b1f;   /* headings */
+    --body-text:   #4b4b4b;   /* paragraphs */
+    --accent:      #ea4242;   /* links */
+    --page-bg:     #f2f2f2;
+
+    --font: "Avenir Next", Avenir, Montserrat, -apple-system, BlinkMacSystemFont, sans-serif;
+
+    --shell:  960px;  /* header, images, footer */
+    --text:    640px;  /* headings + copy */
+    --gutter:   30px;
+  }
+
+  /* ---------- Reset ---------- */
+  *, *::before, *::after { box-sizing: border-box; }
+
+  html { -webkit-text-size-adjust: 100%; }
+
+  body {
+    margin: 0;
+    padding: 0 var(--gutter);
+    background: var(--page-bg);
+    color: var(--body-text);
+    font-family: var(--font);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  img { display: block; max-width: 100%; height: auto; }
+
+  a { color: var(--accent); text-decoration: none; transition: opacity .2s; }
+  a:hover { opacity: .8; }
+
+  h1, h2 { color: var(--ink); font-weight: 400; }
+
+  h1 { margin: 20px 0;      font-size: 48px; line-height: 62px; }
+  h2 { margin: 25px 0 20px; font-size: 22px; line-height: 31px; font-weight: 500; }
+
+  p { margin: 0 0 20px; color: #4b4b4b; font-weight: 400; }
+  p:last-child { margin-bottom: 0; }
+
+  /* ---------- Layout ---------- */
+  .shell { max-width: var(--shell); margin-inline: auto; }
+
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--page-bg);
+    padding: 25px 0;
+  }
+
+  .logo img { width: 104px; }
+  .logo:hover { opacity: .8; }
+
+  .project-title { margin-bottom: 50px; }
+  .project-title h1 { margin-top: 0; }
+
+  /* Text blocks keep the narrow measure */
+  .block-text { max-width: var(--text); margin-bottom: 25px; }
+
+  /* Images run the full shell width (the old hero width) */
+  .block-figure { margin: 0 0 50px; max-width: var(--shell); }
+  .block-figure figcaption {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 24px;
+    opacity: .6;
+  }
+
+  .site-footer {
+    padding: 120px 0 25px;
+    font-size: 17px;
+    line-height: 24px;
+    color: var(--ink);
+    opacity: .6;
+  }
+
+  /* ---------- Responsive ---------- */
+  @media screen and (max-width: 767px) {
+    :root { --gutter: 20px; }
+    .site-header { padding: 20px 0; }
+    h1 { font-size: 32px; line-height: 44px; }
+    .project-title { margin-bottom: 30px; }
+    .block-figure { margin-bottom: 30px; }
+    .site-footer { padding-top: 60px; }
+  }
+</style>
+</head>
+
+<body>
+
+<header class="site-header">
+  <div class="shell">
+    <a href="https://thisislogos.com/" class="logo" aria-label="Lógos — home">
+      <!-- Swap for a local copy of the logo if this draft is hosted elsewhere -->
+      <img src="https://assets-global.website-files.com/5e9043dcacbf455d831f8fdb/5e9043dcacbf451b701f9009_logos-logo.svg"
+           width="104" alt="Lógos">
+    </a>
+  </div>
+</header>
+
+<main class="shell">
+
+  <div class="project-title">
+    <h1>You Go Insurance</h1>
+  </div>
+
+  <!-- ===== REPEAT BLOCK — copy from here… ===== -->
+  <section class="block">
+    <div class="block-text">
+      <h2>Logo:</h2>
+    </div>
+    <figure class="block-figure">
+      <img src="../wipimages/yougo-insurance-identity-01.jpg" alt=""/>
+    </figure>
+  </section>
+	
+  <section class="block">
+    <figure class="block-figure">
+      <img src="../wipimages/yougo-insurance-identity-04.jpg" alt=""/>
+    </figure>
+  </section>
+
+  <section class="block">
+    <figure class="block-figure">
+      <img src="../wipimages/yougo-insurance-identity-02.jpg" alt=""/>
+    </figure>
+  </section>
+	
+  <section class="block">
+    <div class="block-text">
+      <p>Responsive logo, different configurations for different use cases:</p>
+    </div>
+    <figure class="block-figure">
+      <img src="../wipimages/yougo-insurance-identity-03.jpg" alt=""/>
+    </figure>
+  </section>
+	
+  <section class="block">
+    <div class="block-text">
+      <h2>Brand Colors:</h2>
+      <p>1st Row: Primary Colors; 2nd Row: Functional Neutrals; 3rd Row: Highlighters.</p>
+    </div>
+    <figure class="block-figure">
+      <img src="../wipimages/yougo-insurance-identity-05.jpg" alt="" width="640"/>
+    </figure>
+  </section>
+	
+  <section class="block">
+    <div class="block-text">
+      <h2>Brand Fonts:</h2>
+    </div>
+    <figure class="block-figure">
+      <img src="../wipimages/yougo-insurance-identity-07.jpg" alt="" width="640"/>
+    </figure>
+  </section>
+	
+  <section class="block">
+    <div class="block-text">
+      <p>Typesetting mockup:</p>
+    </div>
+    <figure class="block-figure">
+      <img src="../wipimages/yougo-insurance-identity-06.jpg" alt=""/>
+    </figure>
+  </section>
+	
+  <section class="block">
+    <div class="block-text">
+      <h2>Mockups:</h2>
+    </div>
+    <figure class="block-figure">
+      <img src="../wipimages/yougo-insurance-identity-M1.jpg" alt="" width="640"/>
+    </figure>
+  </section>
+	
+  <section class="block">
+    <figure class="block-figure">
+      <img src="../wipimages/yougo-insurance-identity-M2.jpg" alt="" width="640"/><br><br><br>
+    </figure>
+  </section>
+
+  <section class="block">
+    <div class="block-text">
+      <h2>Other Color Palette Options:</h2>
+      <p>Alternate A:</p>
+    </div>
+    <figure class="block-figure">
+      <img src="../wipimages/yougo-insurance-identity-08.jpg" alt=""/>
+    </figure>
+  </section>
+	
+  <section class="block">
+    <div class="block-text">
+      <p>Alternate B:</p>
+    </div>
+    <figure class="block-figure">
+      <img src="../wipimages/yougo-insurance-identity-09.jpg" alt=""/>
+    </figure>
+  </section>
+	
+  <section class="block">
+    <div class="block-text">
+      <h2>Other Logo Designs:</h2>
+      <p>Alternate A:</p>
+    </div>
+    <figure class="block-figure">
+      <img src="../wipimages/yougo-insurance-identity-12.jpg" alt=""/>
+    </figure>
+  </section>
+	
+  <section class="block">
+    <div class="block-text">
+      <p>Alternate B:</p>
+    </div>
+    <figure class="block-figure">
+      <img src="../wipimages/yougo-insurance-identity-10.jpg" alt=""/>
+    </figure>
+  </section>
+	
+  <section class="block">
+    <div class="block-text">
+      <p>Alternate C:</p>
+    </div>
+    <figure class="block-figure">
+      <img src="../wipimages/yougo-insurance-identity-11.jpg" alt=""/>
+    </figure>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="shell">© 2026 Lógos</div>
+</footer>
+
+</body>
+</html>
