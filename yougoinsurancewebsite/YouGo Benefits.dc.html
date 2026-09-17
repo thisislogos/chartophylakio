@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet data-dc-atomics=""><meta name="design_doc_mode" content="canvas"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&amp;display=swap" rel="stylesheet"><style>body{margin:0;background:#dcdfe1;font-family:Poppins,system-ui,sans-serif}a{color:#146f8a;text-decoration:none}a:hover{color:#e35642}</style></helmet>
+
+<div style="display:flex;align-items:flex-start;gap:72px;padding:56px 64px 88px;font-family:Poppins,system-ui,sans-serif">
+
+<div style="display:flex;flex-direction:column;gap:14px">
+<div style="display:flex;align-items:baseline;gap:10px"><span style="font:500 11px/1 ui-monospace,Menlo,monospace;letter-spacing:.14em;text-transform:uppercase;color:#072f48;background:#fff;padding:6px 9px;border-radius:4px">Desktop</span><span style="font:300 12px/1 Poppins,sans-serif;color:#5c7784">1440 × benefits</span></div>
+
+<div style="width:1440px;background:#fff;box-shadow:0 18px 50px rgba(7,47,72,.16);overflow:hidden">
+
+<header style="display:flex;align-items:center;justify-content:space-between;gap:40px;padding:20px 120px;background:#fff">
+<a href="YouGo Home Page.dc.html" style="display:block;text-decoration:none"><img src="assets/yougo-logo.png" alt="You Go Insurance" style="height:40px;width:auto;display:block"></a>
+<nav style="display:flex;align-items:center;gap:46px">
+<a href="YouGo Insurance Plans.dc.html" style="font:400 16px/1 Poppins,sans-serif;color:#1c1c1c;text-decoration:none" style-hover="color:#146f8a">Insurance Plans</a>
+<a href="YouGo Make a Claim.dc.html" style="font:400 16px/1 Poppins,sans-serif;color:#1c1c1c;text-decoration:none" style-hover="color:#146f8a">Make a Claim</a>
+<a href="#" style="font:400 16px/1 Poppins,sans-serif;color:#146f8a;text-decoration:none">Benefits</a>
+<a href="#" style="font:400 16px/1 Poppins,sans-serif;color:#1c1c1c;text-decoration:none" style-hover="color:#146f8a">Contact</a>
+</nav>
+<div style="display:flex;align-items:center;gap:16px">
+<div style="width:48px;height:48px;border:1px solid #e0e6e8;border-radius:6px;display:flex;align-items:center;justify-content:center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1c1c1c" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><line x1="16.5" y1="16.5" x2="21" y2="21"></line></svg></div>
+<a href="#" style="display:flex;align-items:center;gap:10px;background:#072f48;color:#fff;font:400 16px/1 Poppins,sans-serif;padding:16px 28px;border-radius:6px;text-decoration:none" style-hover="background:#146f8a">Contact Us <span style="font-size:15px">→</span></a>
+</div>
+</header>
+
+<section data-screen-label="Page title" style="position:relative;padding:76px 120px 80px;background-image:url('assets/photos/benefits-hero.jpg');background-size:cover;background-position:center;overflow:hidden">
+<div style="position: absolute; inset: 0; background: linear-gradient(90deg, #FFFFFFEB, #DFE0E0EB, rgba(182,190,195,0) 50%)"></div>
+<div style="position:relative;z-index:2">
+<div style="display:flex;align-items:center;gap:10px;margin-bottom:18px;font:400 15px/1 Poppins,sans-serif">
+<a href="YouGo Home Page.dc.html" style="color:#072f48;text-decoration:none" style-hover="color:#146f8a">Home</a>
+<span style="color:#5c7784">/</span>
+<span style="color:#1c1c1c">Benefits</span>
+</div>
+<h1 style="margin:0;font:500 48px/1.16 Poppins,sans-serif;letter-spacing:-.02em;color:#072f48">Benefits Programs</h1>
+</div>
+</section>
+
+<section data-screen-label="Benefits index" style="padding:80px 120px 88px;background:#fff">
+<div style="display:grid;grid-template-columns:repeat(5,1fr);gap:24px">
+<a href="#counselling-cover" style="display:flex;flex-direction:column;gap:14px;padding:26px 24px 24px;border:1px solid #e2ecee;border-radius:12px;text-decoration:none" style-hover="border-color:#65a5af">
+<span style="font:500 13px/1 Poppins,sans-serif;color:#146f8a">01.</span>
+<span style="font:400 18px/1.35 Poppins,sans-serif;color:#072f48">Counselling Cover</span>
+</a>
+<a href="#no-claims-rewards" style="display:flex;flex-direction:column;gap:14px;padding:26px 24px 24px;border:1px solid #e2ecee;border-radius:12px;text-decoration:none" style-hover="border-color:#65a5af">
+<span style="font:500 13px/1 Poppins,sans-serif;color:#146f8a">02.</span>
+<span style="font:400 18px/1.35 Poppins,sans-serif;color:#072f48">No Claims Rewards</span>
+</a>
+<a href="#telehealth" style="display:flex;flex-direction:column;gap:14px;padding:26px 24px 24px;border:1px solid #e2ecee;border-radius:12px;text-decoration:none" style-hover="border-color:#65a5af">
+<span style="font:500 13px/1 Poppins,sans-serif;color:#146f8a">03.</span>
+<span style="font:400 18px/1.35 Poppins,sans-serif;color:#072f48">Telehealth</span>
+</a>
+<a href="#favor-fund" style="display:flex;flex-direction:column;gap:14px;padding:26px 24px 24px;border:1px solid #e2ecee;border-radius:12px;text-decoration:none" style-hover="border-color:#65a5af">
+<span style="font:500 13px/1 Poppins,sans-serif;color:#146f8a">04.</span>
+<span style="font:400 18px/1.35 Poppins,sans-serif;color:#072f48">Favor Fund</span>
+</a>
+<a href="#soldo-card" style="display:flex;flex-direction:column;gap:14px;padding:26px 24px 24px;border:1px solid #e2ecee;border-radius:12px;text-decoration:none" style-hover="border-color:#65a5af">
+<span style="font:500 13px/1 Poppins,sans-serif;color:#146f8a">05.</span>
+<span style="font:400 18px/1.35 Poppins,sans-serif;color:#072f48">Soldo Card</span>
+</a>
+</div>
+</section>
+
+<section id="counselling-cover" data-screen-label="Counselling Cover" style="padding:96px 120px 104px;background:#eaf1f3">
+<div style="display:grid;grid-template-columns:1fr 1.05fr;gap:80px;align-items:center;margin-bottom:72px">
+<div style="position:relative;padding:0 38px 38px 0">
+<div style="position:absolute;right:0;bottom:0;width:86%;height:86%;border-radius:22px;background:#dbe6e9"></div>
+<div style="position:relative;height:460px;border-radius:22px;background-image:url('assets/photos/counselling-cover.jpg');background-size:cover;background-position:center;display:flex;align-items:center;justify-content:center"></div>
+</div>
+<div>
+<div style="display:flex;align-items:center;gap:14px;margin-bottom:26px">
+<span style="font:500 14px/1 Poppins,sans-serif;color:#146f8a">01.</span>
+<span style="flex:1;height:1px;background:#d7e3e6;display:block"></span>
+</div>
+<h2 style="margin:0 0 24px;font:500 40px/1.2 Poppins,sans-serif;letter-spacing:-.018em;color:#072f48">Counselling Cover</h2>
+<p style="margin:0;font:300 17px/1.8 Poppins,sans-serif;color:#072f48;max-width:560px;text-wrap:pretty">Living in another country can be tough and sometimes it can help to talk to someone. Our counselling benefit gives you the freedom to choose a counsellor and receive support either face-to-face or virtually.</p>
+</div>
+</div>
+<h3 style="margin:0 0 34px;font:500 26px/1.3 Poppins,sans-serif;color:#072f48">How it works</h3>
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:28px">
+<div style="background:#fff;border-radius:12px;padding:34px 30px 36px;display:flex;flex-direction:column;gap:14px">
+<span style="font:500 14px/1 Poppins,sans-serif;color:#146f8a">Step 1</span>
+<h4 style="margin:0;font:400 20px/1.35 Poppins,sans-serif;color:#072f48">Choose your counsellor</h4>
+<p style="margin:0;font:300 16px/1.75 Poppins,sans-serif;color:#3f5b6b">Choose any counsellor and submit your <a href="#" style="color:#146f8a;text-decoration:none;border-bottom:1px solid #e35642" style-hover="color:#e35642">Pre-approval form</a> at least 5 working days before your appointment.</p>
+</div>
+<div style="background:#fff;border-radius:12px;padding:34px 30px 36px;display:flex;flex-direction:column;gap:14px">
+<span style="font:500 14px/1 Poppins,sans-serif;color:#146f8a">Step 2</span>
+<h4 style="margin:0;font:400 20px/1.35 Poppins,sans-serif;color:#072f48">Know what’s covered</h4>
+<p style="margin:0;font:300 16px/1.75 Poppins,sans-serif;color:#3f5b6b">We cover 50% of your counselling costs, up to $50 per session, for a maximum of 5 sessions.</p>
+</div>
+<div style="background:#fff;border-radius:12px;padding:34px 30px 36px;display:flex;flex-direction:column;gap:14px">
+<span style="font:500 14px/1 Poppins,sans-serif;color:#146f8a">Step 3</span>
+<h4 style="margin:0;font:400 20px/1.35 Poppins,sans-serif;color:#072f48">Submit your claim</h4>
+<p style="margin:0;font:300 16px/1.75 Poppins,sans-serif;color:#3f5b6b">Sessions are paid upfront and claimed back. Send us your receipts together with the <a href="#" style="color:#146f8a;text-decoration:none;border-bottom:1px solid #e35642" style-hover="color:#e35642">Medical Claim form</a>.</p>
+</div>
+</div>
+</section>
+
+<section id="no-claims-rewards" data-screen-label="No Claims Rewards" style="padding:96px 120px 104px;background:#fff">
+<div style="display:grid;grid-template-columns:1.05fr 1fr;gap:80px;align-items:center">
+<div>
+<div style="display:flex;align-items:center;gap:14px;margin-bottom:26px">
+<span style="font:500 14px/1 Poppins,sans-serif;color:#146f8a">02.</span>
+<span style="flex:1;height:1px;background:#d7e3e6;display:block"></span>
+</div>
+<h2 style="margin:0 0 20px;font:500 40px/1.2 Poppins,sans-serif;letter-spacing:-.018em;color:#072f48">No Claims Rewards</h2>
+<p style="margin:0 0 26px;font:400 22px/1.5 Poppins,sans-serif;color:#146f8a;max-width:540px">Stay claim-free and save on your insurance.</p>
+<p style="margin:0 0 18px;font:300 17px/1.8 Poppins,sans-serif;color:#072f48;max-width:560px;text-wrap:pretty">For every year in which you have no claims reimbursed, you receive a 10% discount on your annual premium. The discount increases each year, up to a maximum of 50% after five years.</p>
+<p style="margin:0;font:300 17px/1.8 Poppins,sans-serif;color:#3f5b6b;max-width:560px;text-wrap:pretty">It’s our way of rewarding members who stay healthy and helping keep your insurance costs down.</p>
+</div>
+<div style="position:relative;padding:38px 0 0 38px">
+<div style="position:absolute;left:0;top:0;width:86%;height:86%;border-radius:22px;background:#dbe6e9"></div>
+<div style="position:relative;height:460px;border-radius:22px;background-image:url('assets/photos/no-claims-reward.jpg');background-size:cover;background-position:center;display:flex;align-items:center;justify-content:center"></div>
+</div>
+</div>
+</section>
+
+<section id="telehealth" data-screen-label="Telehealth" style="padding:96px 120px 104px;background:#eaf1f3">
+<div style="display:grid;grid-template-columns:1fr 1.05fr;gap:80px;align-items:center">
+<div style="position:relative;padding:0 38px 38px 0">
+<div style="position:absolute;right:0;bottom:0;width:86%;height:86%;border-radius:22px;background:#dbe6e9"></div>
+<div style="position:relative;height:420px;border-radius:22px;background-image:url('assets/photos/telehealth.jpg');background-size:cover;background-position:center;display:flex;align-items:center;justify-content:center"></div>
+</div>
+<div>
+<div style="display:flex;align-items:center;gap:14px;margin-bottom:26px">
+<span style="font:500 14px/1 Poppins,sans-serif;color:#146f8a">03.</span>
+<span style="flex:1;height:1px;background:#d7e3e6;display:block"></span>
+</div>
+<h2 style="margin:0 0 20px;font:500 40px/1.2 Poppins,sans-serif;letter-spacing:-.018em;color:#072f48">Telehealth</h2>
+<p style="margin:0 0 26px;font:400 22px/1.5 Poppins,sans-serif;color:#146f8a;max-width:540px">Healthcare, wherever you are.</p>
+<p style="margin:0;font:300 17px/1.8 Poppins,sans-serif;color:#072f48;max-width:560px;text-wrap:pretty">Get convenient access to licensed doctors from the comfort of your home or wherever you happen to be travelling. There is no cost to you.</p>
+</div>
+</div>
+</section>
+
+<section id="favor-fund" data-screen-label="Favor Fund" style="padding:96px 120px 104px;background:#fff">
+<div style="display:grid;grid-template-columns:1.05fr 1fr;gap:80px;align-items:center">
+<div>
+<div style="display:flex;align-items:center;gap:14px;margin-bottom:26px">
+<span style="font:500 14px/1 Poppins,sans-serif;color:#146f8a">04.</span>
+<span style="flex:1;height:1px;background:#d7e3e6;display:block"></span>
+</div>
+<h2 style="margin:0 0 20px;font:500 40px/1.2 Poppins,sans-serif;letter-spacing:-.018em;color:#072f48">Favor Fund</h2>
+<p style="margin:0 0 26px;font:400 22px/1.5 Poppins,sans-serif;color:#146f8a;max-width:540px">Sometimes, things happen that falls outside the terms of your insurance policy.</p>
+<p style="margin:0;font:300 17px/1.8 Poppins,sans-serif;color:#072f48;max-width:560px;text-wrap:pretty">Our Favor Fund gives us the flexibility to help in certain situations where your policy may not provide cover. It’s an extra way we can be there for you when you need a little support.</p>
+</div>
+<div style="position:relative;padding:38px 0 0 38px">
+<div style="position:absolute;left:0;top:0;width:86%;height:86%;border-radius:22px;background:#dbe6e9"></div>
+<div style="position:relative;height:420px;border-radius:22px;background-image:url('assets/photos/favor-fund.jpg');background-size:cover;background-position:center;display:flex;align-items:center;justify-content:center"></div>
+</div>
+</div>
+</section>
+
+<section id="soldo-card" data-screen-label="Soldo Card" style="padding:96px 120px 104px;background:#eaf1f3">
+<div style="display:grid;grid-template-columns:1fr 1.05fr;gap:80px;align-items:center;margin-bottom:72px">
+<div style="position:relative;padding:0 38px 38px 0">
+<div style="position:absolute;right:0;bottom:0;width:86%;height:86%;border-radius:22px;background:#dbe6e9"></div>
+<div style="position:relative;height:460px;border-radius:22px;background-image:url('assets/photos/soldo-card.jpg');background-size:cover;background-position:center;display:flex;align-items:center;justify-content:center"></div>
+</div>
+<div>
+<div style="display:flex;align-items:center;gap:14px;margin-bottom:26px">
+<span style="font:500 14px/1 Poppins,sans-serif;color:#146f8a">05.</span>
+<span style="flex:1;height:1px;background:#d7e3e6;display:block"></span>
+</div>
+<h2 style="margin:0 0 20px;font:500 40px/1.2 Poppins,sans-serif;letter-spacing:-.018em;color:#072f48">Soldo Card</h2>
+<p style="margin:0 0 26px;font:400 22px/1.5 Poppins,sans-serif;color:#146f8a;max-width:540px">Use our card to pay for treatment instead of your personal credit card.</p>
+<p style="margin:0;font:300 17px/1.8 Poppins,sans-serif;color:#072f48;max-width:560px;text-wrap:pretty">When you need treatment, we can arrange for approved funds to be loaded directly onto your Soldo card, allowing you to pay your healthcare provider without having to use your personal credit card.</p>
+</div>
+</div>
+<h3 style="margin:0 0 34px;font:500 26px/1.3 Poppins,sans-serif;color:#072f48">How it works</h3>
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:28px">
+<div style="background:#fff;border-radius:12px;padding:34px 30px 36px;display:flex;flex-direction:column;gap:14px">
+<span style="font:500 14px/1 Poppins,sans-serif;color:#146f8a">Step 1</span>
+<h4 style="margin:0;font:400 20px/1.35 Poppins,sans-serif;color:#072f48">Request pre-approval</h4>
+<p style="margin:0;font:300 16px/1.75 Poppins,sans-serif;color:#3f5b6b">Complete the <a href="#" style="color:#146f8a;text-decoration:none;border-bottom:1px solid #e35642" style-hover="color:#e35642">Pre-approval form</a> and send it to <a href="mailto:pre@yougoinsurance.com" style="color:#146f8a;text-decoration:none;border-bottom:1px solid #e35642" style-hover="color:#e35642">pre@yougoinsurance.com</a></p>
+<p style="margin:0;font:300 16px/1.75 Poppins,sans-serif;color:#3f5b6b">We’ll review your request within 5 working days. Once approved, the authorized amount will be loaded directly onto your card.</p>
+</div>
+<div style="background:#fff;border-radius:12px;padding:34px 30px 36px;display:flex;flex-direction:column;gap:14px">
+<span style="font:500 14px/1 Poppins,sans-serif;color:#146f8a">Step 2</span>
+<h4 style="margin:0;font:400 20px/1.35 Poppins,sans-serif;color:#072f48">Get your treatment and pay with your mobile</h4>
+<p style="margin:0;font:300 16px/1.75 Poppins,sans-serif;color:#3f5b6b">Tell the clinic or hospital, “I’m paying by card.”</p>
+<p style="margin:0;font:300 16px/1.75 Poppins,sans-serif;color:#3f5b6b">Open Apple Wallet or Google Wallet, select your Soldo card and tap your mobile device on the Mastercard terminal.</p>
+</div>
+<div style="background:#fff;border-radius:12px;padding:34px 30px 36px;display:flex;flex-direction:column;gap:14px">
+<span style="font:500 14px/1 Poppins,sans-serif;color:#146f8a">Step 3</span>
+<h4 style="margin:0;font:400 20px/1.35 Poppins,sans-serif;color:#072f48">Send us your receipts</h4>
+<p style="margin:0;font:300 16px/1.75 Poppins,sans-serif;color:#3f5b6b">Keep copies of your receipts and send them to our team within 2 weeks so we can keep your records up to date.</p>
+</div>
+</div>
+</section>
+
+<footer data-screen-label="Footer" style="background:#072f48;padding:76px 120px 0">
+<div style="display:grid;grid-template-columns:1.2fr 1fr 1.2fr;gap:64px;padding-bottom:56px">
+<div>
+<a href="YouGo Home Page.dc.html" style="display:inline-block;text-decoration:none"><img src="assets/yougo-logo-white.png" alt="You Go Insurance" style="height:40px;width:auto;display:block"></a>
+</div>
+<div style="display:flex;flex-direction:column;gap:16px">
+<h4 style="margin:0 0 6px;font:500 17px/1 Poppins,sans-serif;color:#fff">Useful Links</h4>
+<a href="#" style="font:300 16px/1.4 Poppins,sans-serif;color:#9fb8c5;text-decoration:none" style-hover="color:#65a5af">Insurance Plans</a>
+<a href="#" style="font:300 16px/1.4 Poppins,sans-serif;color:#9fb8c5;text-decoration:none" style-hover="color:#65a5af">Make a Claim</a>
+<a href="#" style="font:300 16px/1.4 Poppins,sans-serif;color:#9fb8c5;text-decoration:none" style-hover="color:#65a5af">Benefits</a>
+<a href="#" style="font:300 16px/1.4 Poppins,sans-serif;color:#9fb8c5;text-decoration:none" style-hover="color:#65a5af">Contact</a>
+</div>
+<div style="display:flex;flex-direction:column;gap:22px">
+<h4 style="margin:0;font:500 17px/1 Poppins,sans-serif;color:#fff">Contact info</h4>
+<div style="display:flex;flex-direction:column;gap:5px">
+<span style="font:400 13px/1.4 Poppins,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#65a5af">Email</span>
+<a href="mailto:hello@yougoinsurance.com" style="font:300 16px/1.4 Poppins,sans-serif;color:#9fb8c5;text-decoration:none" style-hover="color:#65a5af">hello@yougoinsurance.com</a>
+</div>
+<div style="display:flex;flex-direction:column;gap:5px">
+<span style="font:400 13px/1.4 Poppins,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#65a5af">Phone, WhatsApp or Viber</span>
+<a href="tel:+601110512677" style="font:300 16px/1.4 Poppins,sans-serif;color:#9fb8c5;text-decoration:none" style-hover="color:#65a5af">+60 (11) 1051 2677</a>
+</div>
+<div style="display:flex;flex-direction:column;gap:5px">
+<span style="font:400 13px/1.4 Poppins,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#65a5af">Operating hours</span>
+<span style="font:300 16px/1.4 Poppins,sans-serif;color:#9fb8c5">Monday to Friday, 10am–6pm (GMT+8)</span>
+</div>
+</div>
+</div>
+<div style="border-top:1px solid rgba(255,255,255,.14);padding:26px 0 30px">
+<span style="font:300 15px/1.5 Poppins,sans-serif;color:#7f9dad">© 2026 You Go Insurance</span>
+</div>
+</footer>
+
+</div>
+</div>
+
+<sc-if value="{{ showMobile }}" hint-placeholder-val="{{ true }}">
+<div style="display:flex;flex-direction:column;gap:14px">
+<div style="display:flex;align-items:baseline;gap:10px"><span style="font:500 11px/1 ui-monospace,Menlo,monospace;letter-spacing:.14em;text-transform:uppercase;color:#072f48;background:#fff;padding:6px 9px;border-radius:4px">Mobile</span><span style="font:300 12px/1 Poppins,sans-serif;color:#5c7784">390 × benefits</span></div>
+
+<div style="width:390px;background:#fff;box-shadow:0 18px 50px rgba(7,47,72,.16);overflow:hidden">
+
+<header style="display:flex;align-items:center;justify-content:space-between;padding:16px 20px;background:#fff">
+<a href="YouGo Home Page.dc.html" style="display:block;text-decoration:none"><img src="assets/yougo-logo.png" alt="You Go Insurance" style="height:32px;width:auto;display:block"></a>
+<div style="display:flex;align-items:center;gap:12px">
+<div style="width:40px;height:40px;border:1px solid #e0e6e8;border-radius:6px;display:flex;align-items:center;justify-content:center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1c1c1c" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><line x1="16.5" y1="16.5" x2="21" y2="21"></line></svg></div>
+<div style="width:40px;height:40px;display:flex;flex-direction:column;justify-content:center;gap:6px;align-items:center">
+<span style="width:24px;height:2px;background:#1c1c1c;display:block"></span>
+<span style="width:24px;height:2px;background:#1c1c1c;display:block"></span>
+<span style="width:24px;height:2px;background:#1c1c1c;display:block"></span>
+</div>
+</div>
+</header>
+
+<section style="position:relative;padding:36px 20px 40px;background-image:url('assets/photos/benefits-hero.jpg');background-size:cover;background-position:center;overflow:hidden">
+<div style="position: absolute; inset: 0; background: linear-gradient(90deg, #FDFDFDEB, #BBC9D0EB, rgba(182,190,195,0) 50%)"></div>
+<div style="position:relative;z-index:2;max-width:50%">
+<div style="display:flex;align-items:center;gap:8px;margin-bottom:14px;font:400 13px/1 Poppins,sans-serif">
+<a href="YouGo Home Page.dc.html" style="color:#072f48;text-decoration:none" style-hover="color:#146f8a">Home</a>
+<span style="color:#5c7784">/</span>
+<span style="color:#1c1c1c">Benefits</span>
+</div>
+<h1 style="margin:0;font:500 34px/1.16 Poppins,sans-serif;letter-spacing:-.02em;color:#072f48">Benefits Programs</h1>
+</div>
+</section>
+
+<section style="padding:40px 20px 44px;background:#fff">
+<div style="display:flex;flex-direction:column;gap:12px">
+<a href="#counselling-cover" style="display:flex;align-items:center;justify-content:space-between;gap:14px;padding:20px 22px;border:1px solid #e2ecee;border-radius:12px;text-decoration:none">
+<span style="display:flex;align-items:center;gap:14px"><span style="font:500 13px/1 Poppins,sans-serif;color:#146f8a">01.</span><span style="font:400 17px/1.35 Poppins,sans-serif;color:#072f48">Counselling Cover</span></span>
+<span style="font:400 16px/1 Poppins,sans-serif;color:#146f8a">↓</span>
+</a>
+<a href="#no-claims-rewards" style="display:flex;align-items:center;justify-content:space-between;gap:14px;padding:20px 22px;border:1px solid #e2ecee;border-radius:12px;text-decoration:none">
+<span style="display:flex;align-items:center;gap:14px"><span style="font:500 13px/1 Poppins,sans-serif;color:#146f8a">02.</span><span style="font:400 17px/1.35 Poppins,sans-serif;color:#072f48">No Claims Rewards</span></span>
+<span style="font:400 16px/1 Poppins,sans-serif;color:#146f8a">↓</span>
+</a>
+<a href="#telehealth" style="display:flex;align-items:center;justify-content:space-between;gap:14px;padding:20px 22px;border:1px solid #e2ecee;border-radius:12px;text-decoration:none">
+<span style="display:flex;align-items:center;gap:14px"><span style="font:500 13px/1 Poppins,sans-serif;color:#146f8a">03.</span><span style="font:400 17px/1.35 Poppins,sans-serif;color:#072f48">Telehealth</span></span>
+<span style="font:400 16px/1 Poppins,sans-serif;color:#146f8a">↓</span>
+</a>
+<a href="#favor-fund" style="display:flex;align-items:center;justify-content:space-between;gap:14px;padding:20px 22px;border:1px solid #e2ecee;border-radius:12px;text-decoration:none">
+<span style="display:flex;align-items:center;gap:14px"><span style="font:500 13px/1 Poppins,sans-serif;color:#146f8a">04.</span><span style="font:400 17px/1.35 Poppins,sans-serif;color:#072f48">Favor Fund</span></span>
+<span style="font:400 16px/1 Poppins,sans-serif;color:#146f8a">↓</span>
+</a>
+<a href="#soldo-card" style="display:flex;align-items:center;justify-content:space-between;gap:14px;padding:20px 22px;border:1px solid #e2ecee;border-radius:12px;text-decoration:none">
+<span style="display:flex;align-items:center;gap:14px"><span style="font:500 13px/1 Poppins,sans-serif;color:#146f8a">05.</span><span style="font:400 17px/1.35 Poppins,sans-serif;color:#072f48">Soldo Card</span></span>
+<span style="font:400 16px/1 Poppins,sans-serif;color:#146f8a">↓</span>
+</a>
+</div>
+</section>
+
+<section style="padding:48px 20px 52px;background:#eaf1f3">
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:22px">
+<span style="font:500 13px/1 Poppins,sans-serif;color:#146f8a">01.</span>
+<span style="flex:1;height:1px;background:#d7e3e6;display:block"></span>
+</div>
+<h2 style="margin:0 0 20px;font:500 28px/1.24 Poppins,sans-serif;letter-spacing:-.018em;color:#072f48">Counselling Cover</h2>
+<div style="position:relative;padding:0 20px 20px 0;margin-bottom:26px">
+<div style="position:absolute;right:0;bottom:0;width:88%;height:88%;border-radius:18px;background:#dbe6e9"></div>
+<div style="position:relative;height:260px;border-radius:18px;background-image:url('assets/photos/counselling-cover.jpg');background-size:cover;background-position:center;display:flex;align-items:center;justify-content:center"></div>
+</div>
+<p style="margin:0 0 34px;font:300 15px/1.8 Poppins,sans-serif;color:#072f48">Living in another country can be tough and sometimes it can help to talk to someone. Our counselling benefit gives you the freedom to choose a counsellor and receive support either face-to-face or virtually.</p>
+<h3 style="margin:0 0 20px;font:500 22px/1.3 Poppins,sans-serif;color:#072f48">How it works</h3>
+<div style="display:flex;flex-direction:column;gap:16px">
+<div style="background:#fff;border-radius:12px;padding:26px 22px;display:flex;flex-direction:column;gap:12px">
+<span style="font:500 13px/1 Poppins,sans-serif;color:#146f8a">Step 1</span>
+<h4 style="margin:0;font:400 18px/1.35 Poppins,sans-serif;color:#072f48">Choose your counsellor</h4>
+<p style="margin:0;font:300 15px/1.75 Poppins,sans-serif;color:#3f5b6b">Choose any counsellor and submit your <a href="#" style="color:#146f8a;text-decoration:none;border-bottom:1px solid #e35642">Pre-approval form</a> at least 5 working days before your appointment.</p>
+</div>
+<div style="background:#fff;border-radius:12px;padding:26px 22px;display:flex;flex-direction:column;gap:12px">
+<span style="font:500 13px/1 Poppins,sans-serif;color:#146f8a">Step 2</span>
+<h4 style="margin:0;font:400 18px/1.35 Poppins,sans-serif;color:#072f48">Know what’s covered</h4>
+<p style="margin:0;font:300 15px/1.75 Poppins,sans-serif;color:#3f5b6b">We cover 50% of your counselling costs, up to $50 per session, for a maximum of 5 sessions.</p>
+</div>
+<div style="background:#fff;border-radius:12px;padding:26px 22px;display:flex;flex-direction:column;gap:12px">
+<span style="font:500 13px/1 Poppins,sans-serif;color:#146f8a">Step 3</span>
+<h4 style="margin:0;font:400 18px/1.35 Poppins,sans-serif;color:#072f48">Submit your claim</h4>
+<p style="margin:0;font:300 15px/1.75 Poppins,sans-serif;color:#3f5b6b">Sessions are paid upfront and claimed back. Send us your receipts together with the <a href="#" style="color:#146f8a;text-decoration:none;border-bottom:1px solid #e35642">Medical Claim form</a>.</p>
+</div>
+</div>
+</section>
+
+<section style="padding:48px 20px 52px;background:#fff">
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:22px">
+<span style="font:500 13px/1 Poppins,sans-serif;color:#146f8a">02.</span>
+<span style="flex:1;height:1px;background:#d7e3e6;display:block"></span>
+</div>
+<h2 style="margin:0 0 16px;font:500 28px/1.24 Poppins,sans-serif;letter-spacing:-.018em;color:#072f48">No Claims Rewards</h2>
+<p style="margin:0 0 22px;font:400 18px/1.5 Poppins,sans-serif;color:#146f8a">Stay claim-free and save on your insurance.</p>
+<div style="position:relative;padding:20px 0 0 20px;margin-bottom:26px">
+<div style="position:absolute;left:0;top:0;width:88%;height:88%;border-radius:18px;background:#dbe6e9"></div>
+<div style="position:relative;height:240px;border-radius:18px;background-image:url('assets/photos/no-claims-reward.jpg');background-size:cover;background-position:center;display:flex;align-items:center;justify-content:center"></div>
+</div>
+<p style="margin:0 0 16px;font:300 15px/1.8 Poppins,sans-serif;color:#072f48">For every year in which you have no claims reimbursed, you receive a 10% discount on your annual premium. The discount increases each year, up to a maximum of 50% after five years.</p>
+<p style="margin:0;font:300 15px/1.8 Poppins,sans-serif;color:#3f5b6b">It’s our way of rewarding members who stay healthy and helping keep your insurance costs down.</p>
+</section>
+
+<section style="padding:48px 20px 52px;background:#eaf1f3">
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:22px">
+<span style="font:500 13px/1 Poppins,sans-serif;color:#146f8a">03.</span>
+<span style="flex:1;height:1px;background:#d7e3e6;display:block"></span>
+</div>
+<h2 style="margin:0 0 16px;font:500 28px/1.24 Poppins,sans-serif;letter-spacing:-.018em;color:#072f48">Telehealth</h2>
+<p style="margin:0 0 22px;font:400 18px/1.5 Poppins,sans-serif;color:#146f8a">Healthcare, wherever you are.</p>
+<div style="position:relative;padding:0 20px 20px 0;margin-bottom:26px">
+<div style="position:absolute;right:0;bottom:0;width:88%;height:88%;border-radius:18px;background:#dbe6e9"></div>
+<div style="position:relative;height:240px;border-radius:18px;background-image:url('assets/photos/telehealth.jpg');background-size:cover;background-position:center;display:flex;align-items:center;justify-content:center"></div>
+</div>
+<p style="margin:0;font:300 15px/1.8 Poppins,sans-serif;color:#072f48">Get convenient access to licensed doctors from the comfort of your home or wherever you happen to be travelling. There is no cost to you.</p>
+</section>
+
+<section style="padding:48px 20px 52px;background:#fff">
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:22px">
+<span style="font:500 13px/1 Poppins,sans-serif;color:#146f8a">04.</span>
+<span style="flex:1;height:1px;background:#d7e3e6;display:block"></span>
+</div>
+<h2 style="margin:0 0 16px;font:500 28px/1.24 Poppins,sans-serif;letter-spacing:-.018em;color:#072f48">Favor Fund</h2>
+<p style="margin:0 0 22px;font:400 18px/1.5 Poppins,sans-serif;color:#146f8a">Sometimes, things happen that falls outside the terms of your insurance policy.</p>
+<div style="position:relative;padding:20px 0 0 20px;margin-bottom:26px">
+<div style="position:absolute;left:0;top:0;width:88%;height:88%;border-radius:18px;background:#dbe6e9"></div>
+<div style="position:relative;height:240px;border-radius:18px;background-image:url('assets/photos/favor-fund.jpg');background-size:cover;background-position:center;display:flex;align-items:center;justify-content:center"></div>
+</div>
+<p style="margin:0;font:300 15px/1.8 Poppins,sans-serif;color:#072f48">Our Favor Fund gives us the flexibility to help in certain situations where your policy may not provide cover. It’s an extra way we can be there for you when you need a little support.</p>
+</section>
+
+<section style="padding:48px 20px 52px;background:#eaf1f3">
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:22px">
+<span style="font:500 13px/1 Poppins,sans-serif;color:#146f8a">05.</span>
+<span style="flex:1;height:1px;background:#d7e3e6;display:block"></span>
+</div>
+<h2 style="margin:0 0 16px;font:500 28px/1.24 Poppins,sans-serif;letter-spacing:-.018em;color:#072f48">Soldo Card</h2>
+<p style="margin:0 0 22px;font:400 18px/1.5 Poppins,sans-serif;color:#146f8a">Use our card to pay for treatment instead of your personal credit card.</p>
+<div style="position:relative;padding:0 20px 20px 0;margin-bottom:26px">
+<div style="position:absolute;right:0;bottom:0;width:88%;height:88%;border-radius:18px;background:#dbe6e9"></div>
+<div style="position:relative;height:260px;border-radius:18px;background-image:url('assets/photos/soldo-card.jpg');background-size:cover;background-position:center;display:flex;align-items:center;justify-content:center"></div>
+</div>
+<p style="margin:0 0 34px;font:300 15px/1.8 Poppins,sans-serif;color:#072f48">When you need treatment, we can arrange for approved funds to be loaded directly onto your Soldo card, allowing you to pay your healthcare provider without having to use your personal credit card.</p>
+<h3 style="margin:0 0 20px;font:500 22px/1.3 Poppins,sans-serif;color:#072f48">How it works</h3>
+<div style="display:flex;flex-direction:column;gap:16px">
+<div style="background:#fff;border-radius:12px;padding:26px 22px;display:flex;flex-direction:column;gap:12px">
+<span style="font:500 13px/1 Poppins,sans-serif;color:#146f8a">Step 1</span>
+<h4 style="margin:0;font:400 18px/1.35 Poppins,sans-serif;color:#072f48">Request pre-approval</h4>
+<p style="margin:0;font:300 15px/1.75 Poppins,sans-serif;color:#3f5b6b">Complete the <a href="#" style="color:#146f8a;text-decoration:none;border-bottom:1px solid #e35642">Pre-approval form</a> and send it to <a href="mailto:pre@yougoinsurance.com" style="color:#146f8a;text-decoration:none;border-bottom:1px solid #e35642">pre@yougoinsurance.com</a></p>
+<p style="margin:0;font:300 15px/1.75 Poppins,sans-serif;color:#3f5b6b">We’ll review your request within 5 working days. Once approved, the authorized amount will be loaded directly onto your card.</p>
+</div>
+<div style="background:#fff;border-radius:12px;padding:26px 22px;display:flex;flex-direction:column;gap:12px">
+<span style="font:500 13px/1 Poppins,sans-serif;color:#146f8a">Step 2</span>
+<h4 style="margin:0;font:400 18px/1.35 Poppins,sans-serif;color:#072f48">Get your treatment and pay with your mobile</h4>
+<p style="margin:0;font:300 15px/1.75 Poppins,sans-serif;color:#3f5b6b">Tell the clinic or hospital, “I’m paying by card.”</p>
+<p style="margin:0;font:300 15px/1.75 Poppins,sans-serif;color:#3f5b6b">Open Apple Wallet or Google Wallet, select your Soldo card and tap your mobile device on the Mastercard terminal.</p>
+</div>
+<div style="background:#fff;border-radius:12px;padding:26px 22px;display:flex;flex-direction:column;gap:12px">
+<span style="font:500 13px/1 Poppins,sans-serif;color:#146f8a">Step 3</span>
+<h4 style="margin:0;font:400 18px/1.35 Poppins,sans-serif;color:#072f48">Send us your receipts</h4>
+<p style="margin:0;font:300 15px/1.75 Poppins,sans-serif;color:#3f5b6b">Keep copies of your receipts and send them to our team within 2 weeks so we can keep your records up to date.</p>
+</div>
+</div>
+</section>
+
+<footer style="background:#072f48;padding:46px 20px 0">
+<a href="YouGo Home Page.dc.html" style="display:inline-block;text-decoration:none"><img src="assets/yougo-logo-white.png" alt="You Go Insurance" style="height:34px;width:auto;display:block;margin-bottom:32px"></a>
+<div style="display:flex;flex-direction:column;gap:14px;padding-bottom:32px">
+<h4 style="margin:0 0 3px;font:500 15px/1 Poppins,sans-serif;color:#fff">Useful Links</h4>
+<a href="#" style="font:300 15px/1.4 Poppins,sans-serif;color:#9fb8c5;text-decoration:none">Insurance Plans</a>
+<a href="#" style="font:300 15px/1.4 Poppins,sans-serif;color:#9fb8c5;text-decoration:none">Make a Claim</a>
+<a href="#" style="font:300 15px/1.4 Poppins,sans-serif;color:#9fb8c5;text-decoration:none">Benefits</a>
+<a href="#" style="font:300 15px/1.4 Poppins,sans-serif;color:#9fb8c5;text-decoration:none">Contact</a>
+</div>
+<div style="display:flex;flex-direction:column;gap:20px;padding-bottom:32px">
+<h4 style="margin:0;font:500 15px/1 Poppins,sans-serif;color:#fff">Contact info</h4>
+<div style="display:flex;flex-direction:column;gap:4px">
+<span style="font:400 12px/1.4 Poppins,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#65a5af">Email</span>
+<a href="mailto:hello@yougoinsurance.com" style="font:300 15px/1.4 Poppins,sans-serif;color:#9fb8c5;text-decoration:none">hello@yougoinsurance.com</a>
+</div>
+<div style="display:flex;flex-direction:column;gap:4px">
+<span style="font:400 12px/1.4 Poppins,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#65a5af">Phone, WhatsApp or Viber</span>
+<a href="tel:+601110512677" style="font:300 15px/1.4 Poppins,sans-serif;color:#9fb8c5;text-decoration:none">+60 (11) 1051 2677</a>
+</div>
+<div style="display:flex;flex-direction:column;gap:4px">
+<span style="font:400 12px/1.4 Poppins,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#65a5af">Operating hours</span>
+<span style="font:300 15px/1.4 Poppins,sans-serif;color:#9fb8c5">Monday to Friday, 10am–6pm (GMT+8)</span>
+</div>
+</div>
+<div style="border-top:1px solid rgba(255,255,255,.14);padding:20px 0 26px">
+<span style="font:300 14px/1.5 Poppins,sans-serif;color:#7f9dad">© 2026 You Go Insurance</span>
+</div>
+</footer>
+
+</div>
+</div>
+</sc-if>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;showMobile&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Mockup&quot;}}">
+class Component extends DCLogic {
+  renderVals() {
+    return { showMobile: this.props.showMobile ?? true };
+  }
+}
+</script>
+</body>
+</html>

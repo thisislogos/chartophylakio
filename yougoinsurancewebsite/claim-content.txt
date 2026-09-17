@@ -1,0 +1,45 @@
+Make a Claim <<Page>>
+ 
+Emergency Assistance
+Emergency situations
+If you have a medical emergency, seek treatment immediately. Our emergency assistance line is available 24/7: +1 (800) 997 7341 Free via Viber.
+Our emergency team can help with:
+• <w:tab w:val="left" w:pos="0"/><w:tab w:val="left" w:pos="720"/></w:tabs><w:spacing w:line="257" w:lineRule="auto"/><w:rPr><w:rFonts w:ascii="Open Sans" w:eastAsia="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/><w:sz w:val="21"/><w:szCs w:val="21"/></w:rPr></w:pPr><w:r w:rsidRPr="00B5461E"><w:rPr><w:rFonts w:ascii="Open Sans" w:eastAsia="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/><w:sz w:val="21"/><w:szCs w:val="21"/></w:rPr><w:t>Informing the medical facility of your cover
+• <w:tab w:val="left" w:pos="0"/><w:tab w:val="left" w:pos="720"/></w:tabs><w:spacing w:line="257" w:lineRule="auto"/><w:rPr><w:rFonts w:ascii="Open Sans" w:eastAsia="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/><w:sz w:val="21"/><w:szCs w:val="21"/></w:rPr></w:pPr><w:r w:rsidRPr="00B5461E"><w:rPr><w:rFonts w:ascii="Open Sans" w:eastAsia="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/><w:sz w:val="21"/><w:szCs w:val="21"/></w:rPr><w:t>Arranging direct payment to the medical facility
+• <w:tab w:val="left" w:pos="0"/><w:tab w:val="left" w:pos="720"/></w:tabs><w:spacing w:line="257" w:lineRule="auto"/><w:rPr><w:rFonts w:ascii="Open Sans" w:eastAsia="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/><w:sz w:val="21"/><w:szCs w:val="21"/></w:rPr></w:pPr><w:r w:rsidRPr="00B5461E"><w:rPr><w:rFonts w:ascii="Open Sans" w:eastAsia="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/><w:sz w:val="21"/><w:szCs w:val="21"/></w:rPr><w:t>Arranging or pre-approving treatment
+• <w:tab w:val="left" w:pos="0"/><w:tab w:val="left" w:pos="720"/></w:tabs><w:spacing w:line="257" w:lineRule="auto"/><w:rPr><w:rFonts w:ascii="Open Sans" w:eastAsia="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/><w:sz w:val="21"/><w:szCs w:val="21"/></w:rPr></w:pPr><w:r w:rsidRPr="00B5461E"><w:rPr><w:rFonts w:ascii="Open Sans" w:eastAsia="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/><w:sz w:val="21"/><w:szCs w:val="21"/></w:rPr><w:t>Organizing an emergency medical evacuation
+ 
+If you are hospitalized
+If you are admitted to hospital, you, your doctor, a dependent, or a colleague must contact us within 48 hours to let us know about the hospitalization.
+You should also contact your dedicated team at hello@yougoinsurance.com to keep us informed.
+Always have your policy number when contacting us about an emergency or claim.
+ 
+Non-emergency assistance
+For non-emergency questions or support, contact your dedicated team. We can help with:
+• <w:tab w:val="left" w:pos="0"/><w:tab w:val="left" w:pos="720"/></w:tabs><w:spacing w:line="257" w:lineRule="auto"/><w:rPr><w:rFonts w:ascii="Open Sans" w:eastAsia="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/><w:sz w:val="21"/><w:szCs w:val="21"/></w:rPr></w:pPr><w:r w:rsidRPr="00B5461E"><w:rPr><w:rFonts w:ascii="Open Sans" w:eastAsia="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/><w:sz w:val="21"/><w:szCs w:val="21"/></w:rPr><w:t>Signing up for a policy
+• <w:tab w:val="left" w:pos="0"/><w:tab w:val="left" w:pos="720"/></w:tabs><w:spacing w:line="257" w:lineRule="auto"/><w:rPr><w:rFonts w:ascii="Open Sans" w:eastAsia="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/><w:sz w:val="21"/><w:szCs w:val="21"/></w:rPr></w:pPr><w:r w:rsidRPr="00B5461E"><w:rPr><w:rFonts w:ascii="Open Sans" w:eastAsia="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/><w:sz w:val="21"/><w:szCs w:val="21"/></w:rPr><w:t>Help with a claim
+• <w:tab w:val="left" w:pos="0"/><w:tab w:val="left" w:pos="720"/></w:tabs><w:spacing w:line="257" w:lineRule="auto"/><w:rPr><w:rFonts w:ascii="Open Sans" w:eastAsia="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/><w:sz w:val="21"/><w:szCs w:val="21"/></w:rPr></w:pPr><w:r w:rsidRPr="00B5461E"><w:rPr><w:rFonts w:ascii="Open Sans" w:eastAsia="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/><w:sz w:val="21"/><w:szCs w:val="21"/></w:rPr><w:t>Arranging payment with a digital card
+• <w:tab w:val="left" w:pos="0"/><w:tab w:val="left" w:pos="720"/></w:tabs><w:spacing w:line="257" w:lineRule="auto"/><w:rPr><w:rFonts w:ascii="Open Sans" w:eastAsia="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/><w:sz w:val="21"/><w:szCs w:val="21"/></w:rPr></w:pPr><w:r w:rsidRPr="00B5461E"><w:rPr><w:rFonts w:ascii="Open Sans" w:eastAsia="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/><w:sz w:val="21"/><w:szCs w:val="21"/></w:rPr><w:t>Policy pricing and payments
+• <w:tab w:val="left" w:pos="0"/><w:tab w:val="left" w:pos="720"/></w:tabs><w:spacing w:line="257" w:lineRule="auto"/><w:rPr><w:rFonts w:ascii="Open Sans" w:eastAsia="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/><w:sz w:val="21"/><w:szCs w:val="21"/></w:rPr></w:pPr><w:r w:rsidRPr="00B5461E"><w:rPr><w:rFonts w:ascii="Open Sans" w:eastAsia="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/><w:sz w:val="21"/><w:szCs w:val="21"/></w:rPr><w:t>Providing proof of insurance
+• <w:tab w:val="left" w:pos="0"/><w:tab w:val="left" w:pos="720"/></w:tabs><w:spacing w:line="257" w:lineRule="auto"/><w:rPr><w:rFonts w:ascii="Open Sans" w:eastAsia="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/><w:sz w:val="21"/><w:szCs w:val="21"/></w:rPr></w:pPr><w:r w:rsidRPr="00B5461E"><w:rPr><w:rFonts w:ascii="Open Sans" w:eastAsia="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/><w:sz w:val="21"/><w:szCs w:val="21"/></w:rPr><w:t>Checking your benefits and limits
+• <w:tab w:val="left" w:pos="0"/><w:tab w:val="left" w:pos="720"/></w:tabs><w:spacing w:line="257" w:lineRule="auto"/><w:rPr><w:rFonts w:ascii="Open Sans" w:eastAsia="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/><w:sz w:val="21"/><w:szCs w:val="21"/></w:rPr></w:pPr><w:r w:rsidRPr="00B5461E"><w:rPr><w:rFonts w:ascii="Open Sans" w:eastAsia="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/><w:sz w:val="21"/><w:szCs w:val="21"/></w:rPr><w:t>Making changes to your policy
+• <w:tab w:val="left" w:pos="0"/><w:tab w:val="left" w:pos="720"/></w:tabs><w:spacing w:line="257" w:lineRule="auto"/><w:rPr><w:rFonts w:ascii="Open Sans" w:eastAsia="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/><w:sz w:val="21"/><w:szCs w:val="21"/></w:rPr></w:pPr><w:r w:rsidRPr="00B5461E"><w:rPr><w:rFonts w:ascii="Open Sans" w:eastAsia="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/><w:sz w:val="21"/><w:szCs w:val="21"/></w:rPr><w:t>Any other questions about your cover
+Email: hello@yougoinsurance.com
+Phone, WhatsApp or Viber: +60 (11) 1051 2677
+Opening hours: Monday to Friday, 10am–6pm (GMT+8)
+ 
+Useful contacts
+Claims submissions</w:r><w:r><w:tab/></w:r><w:r><w:tab/></w:r><w:hyperlink r:id="rId9"><w:r w:rsidR="05BE15C7" w:rsidRPr="007915AA"><w:rPr><w:rStyle w:val="Hyperlink"/><w:b/><w:bCs/><w:sz w:val="21"/><w:szCs w:val="21"/></w:rPr><w:t>claims@yougoinsurance.com
+Pre-approval</w:r><w:r w:rsidR="65FB085E" w:rsidRPr="007915AA"><w:tab/></w:r><w:r w:rsidR="65FB085E" w:rsidRPr="007915AA"><w:tab/></w:r><w:r w:rsidR="00AA098A" w:rsidRPr="007915AA"><w:tab/></w:r><w:hyperlink r:id="rId10" w:history="1"><w:r w:rsidR="00006230" w:rsidRPr="007915AA"><w:rPr><w:rStyle w:val="Hyperlink"/><w:b/><w:bCs/><w:sz w:val="21"/><w:szCs w:val="21"/></w:rPr><w:t>pre@yougoinsurance.com
+Medical emergency evacuations     +1 (800) 997 7341
+ 
+Remember: You will need your policy number when making a claim or contacting us about your cover.
+
+Claim Forms
+• Medical Claim form</w:r><w:r w:rsidR="3ABC80A5" w:rsidRPr="007915AA"><w:tab/></w:r><w:r w:rsidR="4003A9E5" w:rsidRPr="007915AA"><w:rPr><w:rFonts w:ascii="Open Sans" w:eastAsia="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="21"/><w:szCs w:val="21"/></w:rPr><w:t>When we need to pay you back for medical treatment
+
+• Pre-approval form</w:r><w:r w:rsidR="4003A9E5" w:rsidRPr="007915AA"><w:rPr><w:rFonts w:ascii="Open Sans" w:eastAsia="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="21"/><w:szCs w:val="21"/></w:rPr><w:t xml:space="preserve"> </w:r><w:r w:rsidR="4003A9E5" w:rsidRPr="007915AA"><w:rPr><w:rFonts w:ascii="Open Sans" w:eastAsia="Open Sans" w:hAnsi="Open Sans" w:cs="Open Sans"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="21"/><w:szCs w:val="21"/></w:rPr><w:t>When you need us to approve treatment
+
+• Travel Claim form</w:r><w:r w:rsidR="3ABC80A5" w:rsidRPr="007915AA"><w:tab/></w:r><w:r w:rsidR="4003A9E5" w:rsidRPr="007915AA"><w:rPr><w:sz w:val="21"/><w:szCs w:val="21"/></w:rPr><w:t>For travel insurance claims
+
+Email claims forms to: claims@yougoinsurance.com

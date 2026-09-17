@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet data-dc-atomics=""><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&amp;display=swap" rel="stylesheet"><style>body{margin:0;background:#dcdfe1;font-family:Poppins,system-ui,sans-serif}a{color:#146f8a;text-decoration:none}a:hover{color:#e35642}</style></helmet>
+
+<div style="min-height:100vh;background:#dcdfe1;padding:56px 56px 72px;font-family:Poppins,system-ui,sans-serif;box-sizing:border-box">
+
+<div style="display:flex;align-items:flex-end;justify-content:space-between;gap:40px;flex-wrap:wrap;margin-bottom:12px">
+<div>
+<img src="assets/yougo-logo.png" alt="You Go Insurance" style="height:38px;width:auto;display:block;margin-bottom:22px">
+<h1 style="margin:0 0 10px;font:500 34px/1.2 Poppins,sans-serif;letter-spacing:-.018em;color:#072f48">Website UI reference</h1>
+<p style="margin:0;font:300 16px/1.7 Poppins,sans-serif;color:#3f5b6b;max-width:560px">Click any page to open it full size — each live design shows the desktop and mobile layouts side by side.</p>
+</div>
+<div style="display:flex;align-items:center;gap:10px;background:#fff;border-radius:8px;padding:6px">
+<button type="button" onClick="{{ showDesktop }}" style="{{ desktopBtn }}">Desktop</button>
+<button type="button" onClick="{{ showMobileView }}" style="{{ mobileBtn }}">Mobile</button>
+</div>
+</div>
+
+<div style="display:flex;align-items:center;gap:16px;margin:26px 0 34px">
+<span style="font:400 13px/1.4 Poppins,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#146f8a">{{ modeLabel }}</span>
+<span style="flex:1;height:1px;background:#c3ccd0;display:block"></span>
+</div>
+
+<div style="display:flex;align-items:flex-start;gap:28px;flex-wrap:wrap">
+<sc-for list="{{ pages }}" as="page" hint-placeholder-count="5">
+<a href="{{ page.file }}" style="display:flex;flex-direction:column;gap:14px;text-decoration:none;flex:none">
+<div style="display:flex;align-items:baseline;gap:10px">
+<span style="font:500 12px/1 Poppins,sans-serif;color:#146f8a">{{ page.num }}</span>
+<span style="font:400 16px/1.3 Poppins,sans-serif;color:#072f48">{{ page.name }}</span>
+</div>
+<div style="{{ frameStyle }}">
+<iframe src="{{ page.file }}" title="{{ page.name }}" data-ov="{{ page.file }}" scrolling="no" tabindex="-1" style="{{ iframeStyle }}"></iframe>
+<div style="position:absolute;left:0;right:0;bottom:0;height:70px;background:linear-gradient(180deg,rgba(255,255,255,0),rgba(255,255,255,.92));pointer-events:none"></div>
+<div style="position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 0 0 1px rgba(7,47,72,.1)"></div>
+</div>
+</a>
+</sc-for>
+</div>
+
+<div style="margin-top:56px;padding-top:28px;border-top:1px solid #c3ccd0;display:flex;gap:44px;flex-wrap:wrap">
+<div style="display:flex;flex-direction:column;gap:6px">
+<span style="font:400 12px/1.4 Poppins,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#146f8a">Type</span>
+<span style="font:300 15px/1.5 Poppins,sans-serif;color:#3f5b6b">Poppins — Light 300 body, Medium 500 headings</span>
+</div>
+<div style="display:flex;flex-direction:column;gap:8px">
+<span style="font:400 12px/1.4 Poppins,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#146f8a">Palette</span>
+<div style="display:flex;align-items:center;gap:10px">
+<span style="width:22px;height:22px;border-radius:4px;background:#072f48;display:block"></span>
+<span style="width:22px;height:22px;border-radius:4px;background:#146f8a;display:block"></span>
+<span style="width:22px;height:22px;border-radius:4px;background:#65a5af;display:block"></span>
+<span style="width:22px;height:22px;border-radius:4px;background:#e35642;display:block"></span>
+<span style="width:22px;height:22px;border-radius:4px;background:#eaf1f3;border:1px solid #c3ccd0;display:block"></span>
+
+</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:6px">
+<span style="font:400 12px/1.4 Poppins,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#146f8a">Photography</span>
+<span style="font:300 15px/1.5 Poppins,sans-serif;color:#3f5b6b">Licensed files to replace before build</span>
+</div>
+</div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{}">
+class Component extends DCLogic {
+  state = { mode: 'desktop', heights: {} };
+
+  componentDidMount() { this.measure(); }
+  componentDidUpdate(prevProps, prevState) {
+    if (prevState.mode !== this.state.mode) this.measure();
+  }
+
+  measure() {
+    const scale = this.scale();
+    const tick = () => {
+      const next = {};
+      document.querySelectorAll('iframe[data-ov]').forEach((f) => {
+        try {
+          const doc = f.contentDocument;
+          if (!doc) return;
+          const sel = this.state.mode === 'desktop' ? 'div[style*="width:1440px"]' : 'div[style*="width:390px"]';
+          const el = doc.querySelector(sel);
+          if (el) next[f.getAttribute('data-ov')] = Math.round(el.getBoundingClientRect().height);
+        } catch (e) { /* ignore */ }
+      });
+      if (Object.keys(next).length) this.setState({ heights: next });
+    };
+    [400, 1200, 2600].forEach((t) => setTimeout(tick, t));
+  }
+
+  scale() { return this.state.mode === 'desktop' ? 0.17 : 0.42; }
+
+  renderVals() {
+    const mode = this.state.mode;
+    const scale = this.scale();
+    const artW = mode === 'desktop' ? 1440 : 390;
+    // left inset of the artboard inside each page's canvas
+    const inset = mode === 'desktop' ? 64 : 64 + 1440 + 72;
+    const cardW = Math.round(artW * scale);
+    const fallback = mode === 'desktop' ? 4200 : 5200;
+
+    const btn = (on) => 'display:flex;align-items:center;justify-content:center;border:0;cursor:pointer;font:400 14px/1 Poppins,sans-serif;padding:11px 20px;border-radius:6px;'
+      + (on ? 'background:#072f48;color:#fff' : 'background:transparent;color:#3f5b6b');
+
+    const pages = [
+      { num: '01', name: 'Home', file: 'YouGo Home Page.dc.html' },
+      { num: '02', name: 'Insurance Plans', file: 'YouGo Insurance Plans.dc.html' },
+      { num: '03', name: 'Make a Claim', file: 'YouGo Make a Claim.dc.html' },
+      { num: '04', name: 'Benefits', file: 'YouGo Benefits.dc.html' },
+      { num: '05', name: 'Contact', file: 'YouGo Contact.dc.html' }
+    ].map((p) => {
+      const h = this.state.heights[p.file] || fallback;
+      return Object.assign({}, p, { frameH: Math.round(h * scale) });
+    });
+
+    // one shared height keeps the row tidy; use the tallest measured page, capped
+    const tallest = Math.min(Math.max.apply(null, pages.map((p) => p.frameH)), mode === 'desktop' ? 860 : 900);
+
+    return {
+      pages,
+      modeLabel: mode === 'desktop' ? 'Desktop — 1440 px' : 'Mobile — 390 px',
+      desktopBtn: btn(mode === 'desktop'),
+      mobileBtn: btn(mode === 'mobile'),
+      showDesktop: () => this.setState({ mode: 'desktop', heights: {} }),
+      showMobileView: () => this.setState({ mode: 'mobile', heights: {} }),
+      frameStyle: `position:relative;width:${cardW}px;height:${tallest}px;overflow:hidden;background:#fff;border-radius:6px;box-shadow:0 12px 30px rgba(7,47,72,.14)`,
+      iframeStyle: `position:absolute;left:0;top:0;width:${artW + inset}px;height:${Math.round(tallest / scale)}px;border:0;transform:scale(${scale}) translateX(${-inset}px);transform-origin:0 0;pointer-events:none`
+    };
+  }
+}
+</script>
+</body>
+</html>
