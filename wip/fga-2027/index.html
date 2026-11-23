@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FGA Centre Identity Refresh</title>
+<meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
+<meta name="googlebot" content="noindex, nofollow">
+<meta name="description" content="FGA Centre identity refresh by Lógos.">
+<meta name="theme-color" content="#ffffff">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0E1614;
+    --muted:rgba(14,22,20,.55);
+    --rule:rgba(14,22,20,.12);
+
+    --max:1400px;           /* media width (Behance project width) */
+    --text:960px;           /* title + info column */
+    --pad:clamp(20px, 4vw, 40px);   /* side margin, so media never touch the window edge */
+    --gap:16px;             /* space between photos / videos */
+  }
+  *,*::before,*::after{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;
+    background:#fff;
+    color:var(--ink);
+    font-family:"Inter Tight", system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size:17px;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    text-rendering:optimizeLegibility;
+  }
+  a{color:inherit}
+  img,video{display:block;max-width:100%}
+
+  .wrap{max-width:calc(var(--max) + var(--pad) * 2);margin:0 auto;padding:0 var(--pad)}
+
+  /* ---------- Title ---------- */
+  .intro{padding:clamp(64px, 10vw, 140px) 0 0;max-width:var(--text)}
+  h1{
+    margin:0;
+    font-weight:400;
+    font-size:clamp(38px, 6.4vw, 64px);
+    line-height:1.02;
+    letter-spacing:-.032em;
+    text-wrap:balance;
+  }
+
+  /* ---------- Info ---------- */
+  .rows{max-width:var(--text);padding:clamp(40px, 6vw, 64px) 0 clamp(56px, 8vw, 96px)}
+  .row{
+    display:grid;
+    grid-template-columns:120px minmax(0,1fr);
+    column-gap:32px;
+    border-top:1px solid var(--rule);
+  }
+  .label{
+    font-size:12px;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--muted);padding-top:14px;line-height:calc(17px * 1.6);
+  }
+  .brief{margin:0}
+  .brief div{
+    display:grid;grid-template-columns:minmax(0,2fr) minmax(0,3fr);column-gap:32px;
+    padding:14px 0;border-bottom:1px solid var(--rule);
+  }
+  .brief dt{font-weight:600}
+  .brief dd{margin:0}
+
+  /* ---------- Gallery ---------- */
+  .gallery{display:flex;flex-direction:column;gap:var(--gap)}
+  .gallery figure{margin:0;background:#f3f3f3}
+  .gallery img,.gallery video{width:100%;height:auto}
+
+  /* ---------- Footer ---------- */
+  footer{
+    display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap;
+    padding:clamp(64px,9vw,120px) 0 clamp(28px,4vw,48px);
+    font-size:14px;color:var(--muted);
+  }
+  footer .sign{font-size:clamp(28px,4vw,40px);letter-spacing:-.03em;color:var(--ink);line-height:1}
+  footer a{text-decoration:none;border-bottom:1px solid var(--rule)}
+  footer a:hover{border-color:currentColor}
+  .top{background:none;border:0;padding:0;font:inherit;color:inherit;cursor:pointer;border-bottom:1px solid var(--rule)}
+  .top:hover{border-color:currentColor}
+
+  /* ---------- Small screens ---------- */
+  @media (max-width: 640px){
+    :root{--gap:10px}
+    .row{grid-template-columns:1fr;row-gap:0}
+    .brief div{grid-template-columns:1fr;row-gap:2px}
+  }
+</style>
+</head>
+<body>
+
+<main class="wrap">
+
+  <!-- ============ TITLE ============ -->
+  <header class="intro">
+    <h1>FGA Centre Identity Refresh</h1>
+  </header>
+
+  <!-- ============ INFO ============ -->
+  <section class="rows">
+
+    <div class="row">
+      <div class="label">Info</div>
+      <div class="content">
+        <dl class="brief">
+          <div><dt>Why</dt><dd>People meet us before they speak to anyone</dd></div>
+          <div><dt>Goals</dt><dd>Consistent · Welcoming · Shareable</dd></div>
+          <div><dt>Who’s with us</dt><dd>A family church, from children to seniors</dd></div>
+          <div><dt>Who we hope to reach</dt><dd>Younger people and families, and those new to church</dd></div>
+          <div><dt>How it should feel</dt><dd>At home: warm, inviting, modern in a human way</dd></div>
+          <div><dt>What we’re not</dt><dd>Old-school, edgy, futuristic or exclusive</dd></div>
+          <div><dt>A local touch</dt><dd>A hint of Penang, where it fits</dd></div>
+        </dl>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ============ GALLERY ============ -->
+  <section class="gallery" aria-label="Project images">
+
+    <figure><video src="assets/fga-01.mp4" poster="assets/fga-01-poster.jpg" width="1920" height="1080" muted loop playsinline preload="auto" aria-label="FGA Centre logo animation"></video></figure>
+
+    <figure><img src="assets/fga-02.jpg" width="1920" height="1080" alt="FGA colour palette: Harbour, Bordeaux, Ink, Honey, Paper and Pine with HEX, RGB, CMYK and Pantone values"></figure>
+
+    <figure><img src="assets/fga-03.jpg" width="1920" height="1080" loading="lazy" decoding="async" alt="Black and white photo of the congregation in worship with hands raised"></figure>
+
+    <figure><video src="assets/fga-04.mp4" poster="assets/fga-04-poster.jpg" width="1944" height="1728" muted loop playsinline preload="metadata" aria-label="Animated social media grid with brand typography, patterns and photography"></video></figure>
+
+    <figure><img src="assets/fga-05.jpg" width="1920" height="1080" loading="lazy" decoding="async" alt="Typeface specimen: Inter Tight, FGA's main typeface, in weights from Thin to Bold"></figure>
+
+    <figure><img src="assets/fga-06.jpg" width="1920" height="1080" loading="lazy" decoding="async" alt="Typeface specimen: Bespoke Serif, the accent typeface, in Light to Bold"></figure>
+
+    <figure><img src="assets/fga-07.jpg" width="1920" height="1080" loading="lazy" decoding="async" alt="Patterns inspired by Peranakan tiles, shown tone on tone in each brand colour"></figure>
+
+    <figure><img src="assets/fga-08.jpg" width="1920" height="540" loading="lazy" decoding="async" alt="Hand-drawn marker underlines and circles highlighting key words"></figure>
+	  
+    <figure><img src="assets/fga-08.5.jpg" width="1920" height="1080" loading="lazy" decoding="async" alt="Ten colour strips from pale tints to deep shades, extending the brand palette for events"></figure>
+
+    <figure><img src="assets/fga-09.jpg" width="1920" height="1280" loading="lazy" decoding="async" alt="Ministry lanyards for worship, prayer and media in Bordeaux, Harbour and Pine"></figure>
+
+    <figure><img src="assets/fga-10.jpg" width="1920" height="1200" loading="lazy" decoding="async" alt="FGA Centre Instagram profile with patterned story highlights"></figure>
+
+    <figure><video src="assets/fga-11.mp4" poster="assets/fga-11-poster.jpg" width="1920" height="1080" muted loop playsinline preload="metadata" aria-label="Scrolling Instagram stories in the FGA brand"></video></figure>
+
+    <figure><img src="assets/fga-12.jpg" width="1920" height="1120" loading="lazy" decoding="async" alt="Sermon series slide on the main stage LED screen"></figure>
+
+    <figure><img src="assets/fga-13.jpg" width="1920" height="800" loading="lazy" decoding="async" alt="Devotional journals: an open spread in Honey, and Rest and Renew covers"></figure>
+
+    <figure><img src="assets/fga-14.jpg" width="1920" height="1080" loading="lazy" decoding="async" alt="Sticker set with scripture typography and the FGA wordmark"></figure>
+
+    <figure><img src="assets/fga-15.jpg" width="1920" height="1080" loading="lazy" decoding="async" alt="Black and white photo of a member greeting others during service"></figure>
+
+  </section>
+
+  <footer>
+    <div class="sign">Thank you.</div>
+    <div>Lógos · <a href="https://thisislogos.com" target="_blank" rel="noopener">thisislogos.com</a> &nbsp;·&nbsp; <button class="top" type="button" onclick="window.scrollTo({top:0,behavior:'smooth'})">Back to top ↑</button></div>
+  </footer>
+
+</main>
+
+<script>
+  // Videos play only while in view, and loop.
+  (function(){
+    var vids = Array.prototype.slice.call(document.querySelectorAll('.gallery video'));
+    if (!vids.length) return;
+    vids.forEach(function(v){ v.muted = true; v.setAttribute('muted',''); });
+
+    function play(v){ var p = v.play(); if (p && p.catch) p.catch(function(){}); }
+
+    if (!('IntersectionObserver' in window)) { vids.forEach(play); return; }
+
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        var v = e.target;
+        if (e.isIntersecting && e.intersectionRatio >= 0.25) {
+          if (v.preload !== 'auto') v.preload = 'auto';
+          play(v);
+        } else {
+          v.pause();
+        }
+      });
+    }, { threshold:[0, 0.25, 0.5] });
+
+    vids.forEach(function(v){ io.observe(v); });
+
+    // Pause when the tab is hidden; resume the ones in view when it comes back.
+    document.addEventListener('visibilitychange', function(){
+      vids.forEach(function(v){
+        if (document.hidden) { v.pause(); return; }
+        var r = v.getBoundingClientRect();
+        var visible = Math.min(r.bottom, innerHeight) - Math.max(r.top, 0);
+        if (visible > r.height * 0.25) play(v);
+      });
+    });
+  })();
+</script>
+</body>
+</html>
