@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Richard, Isaac &amp; Co Brand Identity</title>
+<meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
+<meta name="googlebot" content="noindex, nofollow">
+<meta name="description" content="Richard, Isaac &amp; Co brand identity by Lógos.">
+<meta name="theme-color" content="#ffffff">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1B1C14;          /* RICO Chambers */
+    --muted:rgba(27,28,20,.55);
+    --rule:rgba(27,28,20,.12);
+
+    --max:1400px;           /* media width (Behance project width) */
+    --text:960px;           /* title + info column */
+    --pad:clamp(20px, 4vw, 40px);   /* side margin, so media never touch the window edge */
+    --gap:0px;              /* space between photos / videos */
+  }
+  *,*::before,*::after{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;
+    background:#fff;
+    color:var(--ink);
+    font-family:"Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size:16px;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    text-rendering:optimizeLegibility;
+  }
+  a{color:inherit}
+  img,video{display:block;max-width:100%}
+
+  .wrap{max-width:calc(var(--max) + var(--pad) * 2);margin:0 auto;padding:0 var(--pad)}
+
+  /* ---------- Title ---------- */
+  .intro{padding:clamp(64px, 10vw, 140px) 0 0;max-width:var(--text)}
+  h1{
+    margin:0;
+    font-weight:400;
+    font-size:clamp(36px, 6vw, 60px);
+    line-height:1.05;
+    letter-spacing:-.035em;
+    text-wrap:balance;
+  }
+
+  /* ---------- Info ---------- */
+  .rows{max-width:var(--text);padding:clamp(40px, 6vw, 64px) 0 clamp(56px, 8vw, 96px)}
+  .row{
+    display:grid;
+    grid-template-columns:120px minmax(0,1fr);
+    column-gap:32px;
+    border-top:1px solid var(--rule);
+  }
+  .label{
+    font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--muted);padding-top:14px;line-height:calc(16px * 1.6);
+  }
+  .brief{margin:0}
+  .brief div{
+    display:grid;grid-template-columns:minmax(0,4fr) minmax(0,5fr);column-gap:32px;
+    padding:14px 0;border-bottom:1px solid var(--rule);
+  }
+  .brief dt{font-weight:600}
+  .brief dd{margin:0}
+
+  /* ---------- Gallery ---------- */
+  .gallery{display:flex;flex-direction:column;gap:var(--gap)}
+  .gallery figure{margin:0;background:#f3f3f3}
+  .gallery img,.gallery video{width:100%;height:auto}
+
+  /* ---------- Footer ---------- */
+  footer{
+    display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap;
+    padding:clamp(56px,8vw,96px) 0 clamp(28px,4vw,48px);
+    font-size:14px;color:var(--muted);
+  }
+  footer .sign{font-size:clamp(28px,4vw,40px);letter-spacing:-.035em;color:var(--ink);line-height:1}
+  footer a{text-decoration:none;border-bottom:1px solid var(--rule)}
+  footer a:hover{border-color:currentColor}
+
+  /* ---------- Option tabs ---------- */
+  .switch{padding-bottom:24px}
+  .tabs{display:inline-flex;gap:4px;padding:4px;border:1px solid var(--rule);border-radius:999px}
+  .tab{
+    height:44px;padding:0 22px;border:0;border-radius:999px;background:none;
+    font:inherit;font-size:15px;font-weight:500;letter-spacing:-.01em;color:var(--muted);cursor:pointer;
+    transition:background-color .2s ease,color .2s ease;
+  }
+  .tab:hover{color:var(--ink)}
+  .tab[aria-selected="true"]{background:var(--ink);color:#fff}
+  .tab:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+
+  /* ---------- Fade between options ---------- */
+  .gallery{transition:opacity .35s ease}
+  .gallery.is-fading{opacity:0}
+  .gallery[hidden]{display:none}
+  @media (prefers-reduced-motion: reduce){ .gallery{transition:none} }
+
+  /* ---------- End of project: tabs + back to top ---------- */
+  .end{display:flex;flex-direction:column;align-items:center;gap:clamp(48px,7vw,80px);padding-top:clamp(32px,4vw,48px)}
+  .end .tab{height:48px;padding:0 28px;font-size:16px}
+  .top{
+    display:inline-flex;align-items:center;gap:10px;
+    height:56px;padding:0 32px;border-radius:999px;
+    background:none;border:1px solid var(--ink);color:var(--ink);
+    font:inherit;font-size:16px;font-weight:500;letter-spacing:-.01em;cursor:pointer;
+    transition:background-color .2s ease,color .2s ease;
+  }
+  .top:hover{background:var(--ink);color:#fff}
+  .top:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+  .top svg{width:18px;height:18px}
+
+  /* ---------- Small screens ---------- */
+  @media (max-width: 640px){
+    .row{grid-template-columns:1fr;row-gap:0}
+    .brief div{grid-template-columns:1fr;row-gap:2px}
+  }
+</style>
+</head>
+<body>
+
+<main class="wrap">
+
+  <!-- ============ TITLE ============ -->
+  <header class="intro">
+    <h1>Richard, Isaac &amp;&nbsp;Co Brand Identity</h1>
+  </header>
+
+  <!-- ============ INFO ============ -->
+  <section class="rows">
+
+    <div class="row">
+      <div class="label">Info</div>
+      <div class="content">
+        <dl class="brief">
+          <div><dt>Trusted advisors, not transaction lawyers</dt><dd>A long-term, strategic partner to every client</dd></div>
+          <div><dt>Calm, assured, trustworthy</dt><dd>The three feelings the identity should convey</dd></div>
+          <div><dt>Practical, accessible, reliable</dt><dd>Established and confident, never cold or distant</dd></div>
+          <div><dt>“Yeah, this is a law firm.”</dt><dd>Unmistakably legal at first glance</dd></div>
+          <div><dt>Understated</dt><dd>Nothing flashy, overly colourful or clichéd</dd></div>
+          <div><dt>Room to grow</dt><dd>Built to hold up as you expand into IP and corporate work</dd></div>
+        </dl>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ============ OPTION TABS ============ -->
+  <nav class="switch" aria-label="Logo options">
+    <div class="tabs" role="tablist">
+      <button class="tab" id="tab-1" role="tab" type="button" data-opt="1" aria-selected="true" aria-controls="option-1">Option 1</button>
+      <button class="tab" id="tab-2" role="tab" type="button" data-opt="2" aria-selected="false" aria-controls="option-2">Option 2</button>
+    </div>
+  </nav>
+
+  <!-- ============ GALLERY: OPTION 1 ============ -->
+  <section class="gallery" id="option-1" role="tabpanel" aria-labelledby="tab-1" aria-label="Option 1 images">
+
+    <figure><img src="assets/RICO-01-01.jpg" width="2800" height="1575" alt="Richard, Isaac &amp; Co wordmark in olive on a warm off-white background"></figure>
+
+    <figure><img src="assets/RICO-01-02.jpg" width="2800" height="1575" alt="RICO colour palette: Olive, Deep Olive, Chambers, Vellum, Mist, Sage, Stone, Warm Grey and Clay with HEX and RGB values"></figure>
+
+    <figure><img src="assets/RICO-01-03.jpg" width="2800" height="1575" loading="lazy" decoding="async" alt="The wordmark on white, olive, near-black and off-white backgrounds"></figure>
+
+    <figure><video src="assets/RICO-01-04A.mp4" poster="assets/RICO-01-04A-poster.jpg" width="2800" height="788" muted loop playsinline preload="metadata" aria-label="Adaptive logo animation, condensing from the full name to RI·CO and RI"></video></figure>
+
+    <figure><img src="assets/RICO-01-04B.jpg" width="2800" height="788" loading="lazy" decoding="async" alt="Adaptive logo set on olive: the full wordmark, RI·CO and the RI monogram"></figure>
+
+    <figure><img src="assets/RICO-01-05.jpg" width="2800" height="2546" loading="lazy" decoding="async" alt="Typeface specimen: Plus Jakarta Sans, with notes on its character and application and the full character set"></figure>
+
+    <figure><img src="assets/RICO-01-06.jpg" width="2800" height="1575" loading="lazy" decoding="async" alt="Richard, Isaac &amp; Co LinkedIn company page with the RI monogram and an olive banner"></figure>
+
+    <figure><img src="assets/RICO-01-07.jpg" width="2800" height="1575" loading="lazy" decoding="async" alt="Website about section: Counsel you can rely on, with clarity at every step"></figure>
+
+    <figure><video src="assets/RICO-01-08.mp4" poster="assets/RICO-01-08-poster.jpg" width="2800" height="1576" muted loop playsinline preload="metadata" aria-label="Search animation: typing Richard, Isaac &amp; Co and opening ricolaw.com, under the line Your matter, our attention"></video></figure>
+
+    <figure><img src="assets/RICO-01-09.jpg" width="2800" height="1925" loading="lazy" decoding="async" alt="Four mobile screens: practice areas, a partner profile, recognition and insights, and firm highlights"></figure>
+
+    <figure><video src="assets/RICO-01-10.mp4" poster="assets/RICO-01-10-poster.jpg" width="2800" height="1800" muted loop playsinline preload="metadata" aria-label="Ring-bound firm brochure turning its pages, with photography of the partners and offices"></video></figure>
+
+    <figure><img src="assets/RICO-01-11.jpg" width="2800" height="2100" loading="lazy" decoding="async" alt="Stationery: engagement letter, business cards and an olive envelope"></figure>
+
+    <figure><img src="assets/RICO-01-12.jpg" width="2800" height="1867" loading="lazy" decoding="async" alt="Engagement letters on off-white, olive and sage paper"></figure>
+
+    <figure><img src="assets/RICO-01-13.jpg" width="2800" height="1200" loading="lazy" decoding="async" alt="RI monogram foil-stamped in copper on textured olive card"></figure>
+
+    <figure><img src="assets/RICO-01-14.jpg" width="2800" height="1400" loading="lazy" decoding="async" alt="Olive projecting sign with the Richard, Isaac &amp; Co wordmark on a stone building facade"></figure>
+
+  </section>
+
+  <!-- ============ GALLERY: OPTION 2 ============ -->
+  <!-- Same as Option 1; only the assets showing the logo use RICO-02-… files. -->
+  <section class="gallery" id="option-2" role="tabpanel" aria-labelledby="tab-2" aria-label="Option 2 images" hidden>
+
+    <figure><img src="assets/RICO-02-01.jpg" width="2800" height="1575" loading="lazy" decoding="async" alt="Richard, Isaac &amp; Co logo in olive on a warm off-white background"></figure>
+
+    <figure><img src="assets/RICO-01-02.jpg" width="2800" height="1575" loading="lazy" decoding="async" alt="RICO colour palette: Olive, Deep Olive, Chambers, Vellum, Mist, Sage, Stone, Warm Grey and Clay with HEX and RGB values"></figure>
+
+    <figure><img src="assets/RICO-02-03.jpg" width="2800" height="1575" loading="lazy" decoding="async" alt="The logo on white, olive, near-black and off-white backgrounds"></figure>
+
+    <figure><video src="assets/RICO-02-04A.mp4" poster="assets/RICO-02-04A-poster.jpg" width="2800" height="788" muted loop playsinline preload="metadata" aria-label="Adaptive logo animation, condensing from the full name to the short forms"></video></figure>
+
+    <figure><img src="assets/RICO-02-04B.jpg" width="2800" height="788" loading="lazy" decoding="async" alt="Adaptive logo set on olive: the full logo and its short forms"></figure>
+
+    <figure><img src="assets/RICO-01-05.jpg" width="2800" height="2546" loading="lazy" decoding="async" alt="Typeface specimen: Plus Jakarta Sans, with notes on its character and application and the full character set"></figure>
+
+    <figure><img src="assets/RICO-02-06.jpg" width="2800" height="1575" loading="lazy" decoding="async" alt="Richard, Isaac &amp; Co LinkedIn company page with the monogram and an olive banner"></figure>
+
+    <figure><img src="assets/RICO-02-07.jpg" width="2800" height="1575" loading="lazy" decoding="async" alt="Website about section: Counsel you can rely on, with clarity at every step"></figure>
+
+    <figure><video src="assets/RICO-02-08.mp4" poster="assets/RICO-02-08-poster.jpg" width="2800" height="1576" muted loop playsinline preload="metadata" aria-label="Search animation: typing Richard, Isaac &amp; Co and opening ricolaw.com, under the line Your matter, our attention"></video></figure>
+
+    <figure><img src="assets/RICO-01-09.jpg" width="2800" height="1925" loading="lazy" decoding="async" alt="Four mobile screens: practice areas, a partner profile, recognition and insights, and firm highlights"></figure>
+
+    <figure><video src="assets/RICO-01-10.mp4" poster="assets/RICO-01-10-poster.jpg" width="2800" height="1800" muted loop playsinline preload="metadata" aria-label="Ring-bound firm brochure turning its pages, with photography of the partners and offices"></video></figure>
+
+    <figure><img src="assets/RICO-02-11.jpg" width="2800" height="2100" loading="lazy" decoding="async" alt="Stationery: engagement letter, business cards and an olive envelope"></figure>
+
+    <figure><img src="assets/RICO-02-12.jpg" width="2800" height="1867" loading="lazy" decoding="async" alt="Engagement letters on off-white, olive and sage paper"></figure>
+
+    <figure><img src="assets/RICO-02-13.jpg" width="2800" height="1200" loading="lazy" decoding="async" alt="Monogram foil-stamped in copper on textured olive card"></figure>
+
+    <figure><img src="assets/RICO-02-14.jpg" width="2800" height="1400" loading="lazy" decoding="async" alt="Olive projecting sign with the Richard, Isaac &amp; Co logo on a stone building facade"></figure>
+
+  </section>
+
+  <!-- ============ END: OPTION TABS + BACK TO TOP ============ -->
+  <div class="end">
+    <div class="tabs" aria-label="Logo options">
+      <button class="tab" type="button" data-opt="1" data-end aria-selected="true">Option 1</button>
+      <button class="tab" type="button" data-opt="2" data-end aria-selected="false">Option 2</button>
+    </div>
+    <button class="top" type="button" onclick="window.scrollTo({top:0,behavior:'smooth'})">Back to top
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="M6 11l6-6 6 6"/></svg>
+    </button>
+  </div>
+
+  <footer>
+    <div class="sign">Thank you.</div>
+    <div>Lógos · <a href="https://thisislogos.com" target="_blank" rel="noopener">thisislogos.com</a></div>
+  </footer>
+
+</main>
+
+<script>
+  // Videos play only while in view, and loop.
+  (function(){
+    var vids = Array.prototype.slice.call(document.querySelectorAll('.gallery video'));
+    if (!vids.length) return;
+    vids.forEach(function(v){ v.muted = true; v.setAttribute('muted',''); });
+
+    function play(v){ var p = v.play(); if (p && p.catch) p.catch(function(){}); }
+
+    if (!('IntersectionObserver' in window)) { vids.forEach(play); return; }
+
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        var v = e.target;
+        if (e.isIntersecting && e.intersectionRatio >= 0.25) {
+          if (v.preload !== 'auto') v.preload = 'auto';
+          play(v);
+        } else {
+          v.pause();
+        }
+      });
+    }, { threshold:[0, 0.25, 0.5] });
+
+    vids.forEach(function(v){ io.observe(v); });
+
+    // Pause when the tab is hidden; resume the ones in view when it comes back.
+    document.addEventListener('visibilitychange', function(){
+      vids.forEach(function(v){
+        if (document.hidden) { v.pause(); return; }
+        var r = v.getBoundingClientRect();
+        var visible = Math.min(r.bottom, innerHeight) - Math.max(r.top, 0);
+        if (visible > r.height * 0.25) play(v);
+      });
+    });
+  })();
+</script>
+<script>
+  // Option tabs: fade between Option 1 and Option 2.
+  // Tabs at the end of the page also bring you back up to the tabs at the top.
+  (function(){
+    var switchEl = document.querySelector('.switch');
+    var panels = { '1': document.getElementById('option-1'), '2': document.getElementById('option-2') };
+    var tabs = Array.prototype.slice.call(document.querySelectorAll('.tab[data-opt]'));
+    var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var FADE = reduce ? 0 : 350;
+    var current = '1', busy = false;
+
+    function setTabs(opt){
+      tabs.forEach(function(t){ t.setAttribute('aria-selected', t.getAttribute('data-opt') === opt ? 'true' : 'false'); });
+    }
+    function toTabs(smooth){
+      var y = switchEl.getBoundingClientRect().top + window.pageYOffset - 24;
+      try { window.scrollTo({ top: y, behavior: smooth ? 'smooth' : 'instant' }); }
+      catch(e){ window.scrollTo(0, y); }
+    }
+    function show(opt, fromEnd){
+      if (busy) return;
+      if (opt === current){ if (fromEnd) toTabs(true); return; }
+      busy = true;
+      var from = panels[current], to = panels[opt];
+      setTabs(opt);
+      from.classList.add('is-fading');
+      setTimeout(function(){
+        from.querySelectorAll('video').forEach(function(v){ v.pause(); });
+        from.hidden = true;
+        to.classList.add('is-fading');
+        to.hidden = false;
+        if (fromEnd) toTabs(false);
+        void to.offsetWidth;                 // let the browser register opacity:0 before fading in
+        to.classList.remove('is-fading');
+        from.classList.remove('is-fading');
+        current = opt;
+        if (history.replaceState) history.replaceState(null, '', '#option-' + opt);
+        setTimeout(function(){ busy = false; }, FADE);
+      }, FADE);
+    }
+    tabs.forEach(function(t){
+      t.addEventListener('click', function(){ show(t.getAttribute('data-opt'), t.hasAttribute('data-end')); });
+    });
+
+    // Open straight to Option 2 with a link ending in #option-2
+    if (location.hash === '#option-2'){
+      panels['1'].hidden = true; panels['2'].hidden = false; current = '2'; setTabs('2');
+    }
+  })();
+</script>
+</body>
+</html>
